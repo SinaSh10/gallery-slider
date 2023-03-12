@@ -72,10 +72,10 @@ img{
     background-color: slategray;
 }
 .animation{
-    animation-name: maryam;
+    animation-name: my-animation;
     animation-duration: 1.5s;
 }
-@keyframes maryam{
+@keyframes my-animation{
     from{opacity: 0.4;}
     to{opacity: 1;}
 }
