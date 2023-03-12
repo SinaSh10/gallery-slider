@@ -1,0 +1,82 @@
+#clock{
+    /* background-color: black; */
+    /* color: white; */
+    margin-top:0px;
+    /* margin-left: 175px; */
+    font-size: 28px;
+    text-align: left;
+}
+body{
+    background-color: tan;
+}
+img{
+    /* border-radius: 10px; */
+}
+.img-container{
+    position: relative;
+}
+.slider{
+    display: none;
+}
+.prev,.next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    color: snow;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 15px;
+    transition: 0.6s ease;
+    /* width: 10px; */
+    /* height: 10px; */
+    text-align: center;
+    
+}
+.next{
+    right: 0;
+}
+.next:hover,.prev:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.text{
+    position: absolute;
+    color: seashell;
+    width: 100%;
+    text-align: center;
+    padding: 10px 14px;
+    bottom: 10px;
+    font-size: 15px;
+}
+.number{
+    position: absolute;
+    color: seashell;
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 5px 9px;
+}
+.dot-container{
+    width: 100%;
+    text-align: center;
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #d7d7d7;
+    display: inline-block;
+    transition: 0.2s ease-in;
+}
+.dot:hover, .active{
+    cursor: pointer;
+    background-color: slategray;
+}
+.animation{
+    animation-name: maryam;
+    animation-duration: 1.5s;
+}
+@keyframes maryam{
+    from{opacity: 0.4;}
+    to{opacity: 1;}
+}
+    
