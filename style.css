@@ -7,10 +7,10 @@
     text-align: left;
 }
 body{
-    background-color: tan;
+    background-color: rgb(160, 183, 188);
 }
 img{
-    /* border-radius: 10px; */
+    border-radius: 10px;
 }
 .img-container{
     position: relative;
