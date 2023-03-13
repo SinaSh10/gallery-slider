@@ -41,11 +41,11 @@ img{
 }
 .text{
     position: absolute;
-    color: seashell;
+    color: black;
     width: 100%;
     text-align: center;
     padding: 10px 14px;
-    bottom: 10px;
+    bottom: 5px;
     font-size: 15px;
 }
 .number{
